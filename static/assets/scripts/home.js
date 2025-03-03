@@ -16,8 +16,8 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
     const style = iframe.style
     const link = doc.createElement('link')
 
-    const name = localStorage.getItem('name') || 'BlobeBlocker v2.0'
-    const icon = localStorage.getItem('icon') || 'https://blobby-boi.github.io/BlobeBM/favicon.ico'
+    const name = localStorage.getItem('name') || 'Home'
+    const icon = localStorage.getItem('icon') || 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStR3gp3oUAFMLiVjj7EnxHK5JBLgOjZqbJrw&s'
 
     doc.title = name
     link.rel = 'icon'
