@@ -9,7 +9,7 @@ try {
 if (!inFrame && !navigator.userAgent.includes('Firefox')) {
   const popup = open('about:blank', '_blank')
   if (!popup || popup.closed) {
-    alert('Please allow popups and redirects so that BlobeBlocker can open in about:blank.')
+    alert('Please allow popups and redirects so that searcher can open in about:blank.')
   } else {
     const doc = popup.document
     const iframe = doc.createElement('iframe')
@@ -74,16 +74,16 @@ document.onkeydown = function (evt) {
 }
 
 let splashtext = [
-  'Over 7 Million Users in 2023!',
-  'Fastest growing proxy server!',
+  'Bye',
+  'Cool proxy',
   'Made by Bubbo!',
-  'Check out discord.gg/interstellar :)',
+  ':)',
   'Thanks for using the site',
-  'Follow us on Tiktok (@useinterstellar)',
-  'Subscribe to us on YouTube (@unblocking)',
-  'Subscribe to my Youtube (@xbubbo)',
+  'Follow us on Instagram (@extravagantblunt)',
+  'Hi',
+  'Thanks to Interstellar',
   'Check out the settings page',
-  'Check out our Patreon (https://www.patreon.com/gointerstellar)',
+  'Cool website imperfect.onrender.com',
 ]
 
 document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
